@@ -1,0 +1,78 @@
+:root {
+	--GBackgroud: #262d40;
+}
+
+body{
+	background-color: #4d5980;
+}
+
+
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--GBackgroud);
+	align-items: center;
+	padding-left:  220px;
+	padding-right: 220px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	
+}
+
+.link{
+	color:white;
+    text-decoration: none;
+    font-size: 45px;
+	padding: 5px 5px 5px 5px;
+}
+
+.link:hover{
+    color:#9fa8c6;
+}
+
+.prod-interface{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color: var(--GBackgroud);
+	border-radius: 15px;
+	font-size: 20px;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.prod-desc{
+	width: 1000px;
+	word-wrap: break-word;
+}
+
+.h1-head{
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.delete-update-link{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+    
+ }
+
+.desc-holder{
+	display: grid;
+	grid-row-gap: 20px;
+	background-color: #303850;
+	border-radius: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.prod-desc{
+	font-size: 24px;
+}
